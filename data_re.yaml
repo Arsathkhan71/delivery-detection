@@ -1,0 +1,12 @@
+train: C:/Users/Arsath khan/Internships/eye/OD.v1i.yolov8/train3
+val: C:/Users/Arsath khan/Internships/eye/OD.v1i.yolov8/test3
+
+nc: 5
+names: ['Bag', 'Box', 'Delivery_Swiggy', 'Delivery_Zomato', 'Person']
+
+roboflow:
+  workspace: sign-1npgc
+  project: od-jffd8
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sign-1npgc/od-jffd8/dataset/1
